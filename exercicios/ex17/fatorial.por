@@ -1,27 +1,28 @@
 programa
 {
 
-	inteiro num, resultado = 1, fatorial
+	inteiro num, resultado, fatorial
 	
-	funcao inicio()
-	{
-		escreva("Digite o numero para ser fatorado: ")
+	funcao inicio() {
+		escreva("Numero para ser fatorado: ")
 		leia(num)
 
-		para (fatorial = num; fatorial >= 1 ; fatorial--) {
-			resultado = resultado * fatorial
+		resultado = 1
+
+		para (fatorial = num; fatorial >= 1; fatorial--) {
+			resultado *= fatorial
 		}
 
-		escreva("O fatorial de ", num, " e ", resultado)
+		escreva("O fatorial de ", num, " e igual a ", resultado)
 	}
-
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 292; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
