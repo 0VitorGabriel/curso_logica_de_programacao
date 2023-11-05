@@ -8,6 +8,7 @@ programa
 	{
 		escreva("Digite sua nota: ")
 		leia(notas[2])
+		escreva(notas[2])
 		
 		minhaNota = notas[2]
 		escreva("Conteudo da variavel minhaNota: ", minhaNota, "\n")
@@ -21,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 66; 
+ * @POSICAO-CURSOR = 136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {notas, 4, 6, 5}-{minhaNota, 5, 6, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
