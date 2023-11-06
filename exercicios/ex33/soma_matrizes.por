@@ -28,16 +28,15 @@ programa
 			para (j = 0; j <= 9; j++) {
 				se (j < 9) {
 					se (txt.numero_caracteres(tp.inteiro_para_cadeia(matriz[i][j], 10)) == 2) {
-						escreva(matriz[i][j], "  ")
+						escreva("[", matriz[i][j], "]  ")
 					} senao se (txt.numero_caracteres(tp.inteiro_para_cadeia(matriz[i][j], 10)) == 3) {
-						 escreva(matriz[i][j], " ")
-					}
-					senao {
-						escreva(matriz[i][j], "   ")
+						 escreva("[", matriz[i][j], "] ")
+					} senao {
+						escreva("[", matriz[i][j], "]   ")
 					}
 					
 				} senao {
-					escreva(matriz[i][j], "\n")
+					escreva("[", matriz[i][j], "] \n")
 				}
 			}
 		}
@@ -51,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 749; 
+ * @POSICAO-CURSOR = 778; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 10, 9, 6}-{somatoria, 12, 9, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
